@@ -7,7 +7,7 @@ from __future__ import print_function
 #
 # Activity 1.3.9 Tools for Collaboration
 # Project 1.3.10 Collaborating on a Project
-# 
+# Ethan Is super Cool
 # To run a tournament, execute this file. 
 # Place each team's strategy in a file in the same directory as this file.
 # Tournament results saved to tournament.txt in this directory.
