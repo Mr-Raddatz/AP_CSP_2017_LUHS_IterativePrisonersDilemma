@@ -17,11 +17,10 @@ def move(my_history, their_history, my_score, their_score):
     Make my move.
     Returns 'c' or 'b'. 
     '''
-    
-     if len(my_history) == 0:
+    if len(my_history) == 0:
         return 'c' #first move return c
         
-     if their_history[-1] == 'c':
+    if their_history[-1] == 'c':
         c_always = True
         if c_always == True:
             hist = len(their_history)
@@ -35,7 +34,7 @@ def move(my_history, their_history, my_score, their_score):
                 return 'c'
                 c_always = False
             
-    if their_history[-1] == 'b':
+    if their_history[0] == 'b':
         return 'b'  #Copy their move if they betrayed the last round
 
     # my_history: a string with one letter (c or b) per round that has been played with this opponent.
