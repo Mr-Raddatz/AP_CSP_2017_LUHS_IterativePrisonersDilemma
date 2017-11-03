@@ -8,7 +8,7 @@
 
 team_name = 'team2' # Only 10 chars displayed.
 strategy_name = 'tit for tat with randomness'
-strategy_description = 'The first'
+strategy_description = 'The first move is collude, then the next move is based off of the players last move.'
     
 def move(my_history, their_history, my_score, their_score):
     ''' Arguments accepted: my_history, their_history are strings.
@@ -34,8 +34,6 @@ def move(my_history, their_history, my_score, their_score):
             else:
                 return 'c'
                 c_always = False
-        else:
-            return 'c' 
             
     if their_history[-1] == 'b':
         return 'b'  #Copy their move if they betrayed the last round
