@@ -9,6 +9,8 @@
 team_name = 'team2' # Only 10 chars displayed.
 strategy_name = 'tit for tat with randomness'
 strategy_description = 'The first move is collude, then the next move is based off of the players last move.'
+
+from random import *
     
 def move(my_history, their_history, my_score, their_score):
     ''' Arguments accepted: my_history, their_history are strings.
